@@ -1,0 +1,17 @@
+[
+    {
+        "id" : 1 ,
+        "date" : "2017-01-01",
+        "weather" : "rainy",
+        "visibility": "poor",
+        "comment" : "Fue un vuelo complicado"
+    },
+    
+    {
+        "id" : 2 ,
+        "date" : "2017-01-02",
+        "weather" : "rainy",
+        "visibility": "poor",
+        "comment" : "Fue un vuelo complicado como el de ayer"
+    }
+]
