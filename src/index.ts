@@ -1,9 +1,14 @@
 import express from 'express'
 import diaryRouter from './routes/diaries'
+import bodyParser from 'body-parser'
+import morgan from 'morgan'
 const app = express()
 
 // middleware transforma req.body a json
 app.use(express.json())
+app.use(bodyParser.json())
+
+app.use(morgan('dev'))
 
 const PORT = 3000
 
